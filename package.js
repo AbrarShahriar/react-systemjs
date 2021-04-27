@@ -23,7 +23,6 @@ SystemJS.config({
     'react': 'https://unpkg.com/react@17.0.1/umd/react.development.js',
     'react-dom': 'https://unpkg.com/react-dom@17.0.1/umd/react-dom.development.js',
     'css': 'https://unpkg.com/systemjs-plugin-css@0.1.37/css.js',
-    'logo.svg': '../src/logo.svg'
   },
   transpiler: 'plugin-babel'
 });
