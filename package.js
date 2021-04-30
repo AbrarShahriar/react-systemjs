@@ -23,7 +23,10 @@ SystemJS.config({
     'react': '../node_modules/react/react.production.min.js',
     'react-dom': '../node_modules/react-dom/react-dom.production.min.js',
     'css': '../node_modules/css/css.js',
-    'material-ui/core': '../node_modules/material-ui/material-ui.production.min.js'
+    'material-ui/core': '../node_modules/material-ui/material-ui.production.min.js',
+    'firebase': '../node_modules/firebase/firebase-app.js',
+    'firebase/auth': '../node_modules/firebase/auth/firebase-auth.js',
+    'firebase/firestore': '../node_modules/firebase/firestore/firebase-firestore.js',
   },
   transpiler: 'plugin-babel'
 });
