@@ -28,6 +28,7 @@ SystemJS.config({
     'firebase': '../node_modules/firebase/firebase-app.js',
     'firebase/auth': '../node_modules/firebase/auth/firebase-auth.js',
     'firebase/firestore': '../node_modules/firebase/firestore/firebase-firestore.js',
+    'react-markdown': '../node_modules/react-markdown/react-markdown.js'
   },
   transpiler: 'plugin-babel'
 });
